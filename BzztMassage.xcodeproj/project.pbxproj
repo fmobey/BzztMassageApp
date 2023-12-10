@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C32CF4E2A07011D00C9EC41 /* MassagesMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C32CF4D2A07011D00C9EC41 /* MassagesMode.swift */; };
+		4C3FBA3C29FDB8AB00B57393 /* Bzzt Massage.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4C3FBA3B29FDB8AB00B57393 /* Bzzt Massage.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4C3FBA4129FDB8AB00B57393 /* BzztMassageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3FBA4029FDB8AB00B57393 /* BzztMassageApp.swift */; };
+		4C3FBA4529FDB8AE00B57393 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C3FBA4429FDB8AE00B57393 /* Assets.xcassets */; };
+		4C3FBA4829FDB8AE00B57393 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C3FBA4729FDB8AE00B57393 /* Preview Assets.xcassets */; };
+		4C3FBA5E29FDB96F00B57393 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3FBA5D29FDB96F00B57393 /* MainView.swift */; };
+		4C3FBA6029FDB9A400B57393 /* MassageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3FBA5F29FDB9A400B57393 /* MassageView.swift */; };
+		4C3FBA6229FDB9BF00B57393 /* MassageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3FBA6129FDB9BF00B57393 /* MassageViewModel.swift */; };
+		4C3FBA6529FDBA5F00B57393 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3FBA6429FDBA5F00B57393 /* InfoView.swift */; };
+		4C3FBA6E2A0104FE00B57393 /* SpeedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3FBA6D2A0104FE00B57393 /* SpeedControl.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C3FBA3D29FDB8AB00B57393 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C3FBA2F29FDB8AB00B57393 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C3FBA3A29FDB8AB00B57393;
+			remoteInfo = "BzztMassage Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4C3FBA4E29FDB8AE00B57393 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				4C3FBA3C29FDB8AB00B57393 /* Bzzt Massage.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4C32CF4D2A07011D00C9EC41 /* MassagesMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MassagesMode.swift; sourceTree = "<group>"; };
+		4C3FBA3529FDB8AB00B57393 /* BzztMassage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BzztMassage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C3FBA3B29FDB8AB00B57393 /* Bzzt Massage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bzzt Massage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C3FBA4029FDB8AB00B57393 /* BzztMassageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BzztMassageApp.swift; sourceTree = "<group>"; };
+		4C3FBA4429FDB8AE00B57393 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C3FBA4729FDB8AE00B57393 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4C3FBA5D29FDB96F00B57393 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		4C3FBA5F29FDB9A400B57393 /* MassageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MassageView.swift; sourceTree = "<group>"; };
+		4C3FBA6129FDB9BF00B57393 /* MassageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MassageViewModel.swift; sourceTree = "<group>"; };
+		4C3FBA6429FDBA5F00B57393 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		4C3FBA6D2A0104FE00B57393 /* SpeedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedControl.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C3FBA3829FDB8AB00B57393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C32CF4C2A0700ED00C9EC41 /* MassagesMode */ = {
+			isa = PBXGroup;
+			children = (
+				4C32CF4D2A07011D00C9EC41 /* MassagesMode.swift */,
+			);
+			path = MassagesMode;
+			sourceTree = "<group>";
+		};
+		4C3FBA2E29FDB8AB00B57393 = {
+			isa = PBXGroup;
+			children = (
+				4C3FBA3F29FDB8AB00B57393 /* BzztMassage Watch App */,
+				4C3FBA3629FDB8AB00B57393 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C3FBA3629FDB8AB00B57393 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C3FBA3529FDB8AB00B57393 /* BzztMassage.app */,
+				4C3FBA3B29FDB8AB00B57393 /* Bzzt Massage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C3FBA3F29FDB8AB00B57393 /* BzztMassage Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				4C3FBA5A29FDB94C00B57393 /* Scenes */,
+				4C3FBA4029FDB8AB00B57393 /* BzztMassageApp.swift */,
+				4C3FBA4429FDB8AE00B57393 /* Assets.xcassets */,
+				4C3FBA4629FDB8AE00B57393 /* Preview Content */,
+			);
+			path = "BzztMassage Watch App";
+			sourceTree = "<group>";
+		};
+		4C3FBA4629FDB8AE00B57393 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4C3FBA4729FDB8AE00B57393 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4C3FBA5A29FDB94C00B57393 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				4C32CF4C2A0700ED00C9EC41 /* MassagesMode */,
+				4C3FBA6C2A0104EA00B57393 /* SpeedControl  */,
+				4C3FBA6329FDBA4D00B57393 /* Info */,
+				4C3FBA5C29FDB95C00B57393 /* Main */,
+				4C3FBA5B29FDB95300B57393 /* Massage */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		4C3FBA5B29FDB95300B57393 /* Massage */ = {
+			isa = PBXGroup;
+			children = (
+				4C3FBA5F29FDB9A400B57393 /* MassageView.swift */,
+				4C3FBA6129FDB9BF00B57393 /* MassageViewModel.swift */,
+			);
+			path = Massage;
+			sourceTree = "<group>";
+		};
+		4C3FBA5C29FDB95C00B57393 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4C3FBA5D29FDB96F00B57393 /* MainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4C3FBA6329FDBA4D00B57393 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				4C3FBA6429FDBA5F00B57393 /* InfoView.swift */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+		4C3FBA6C2A0104EA00B57393 /* SpeedControl  */ = {
+			isa = PBXGroup;
+			children = (
+				4C3FBA6D2A0104FE00B57393 /* SpeedControl.swift */,
+			);
+			path = "SpeedControl ";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C3FBA3429FDB8AB00B57393 /* BzztMassage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C3FBA4F29FDB8AE00B57393 /* Build configuration list for PBXNativeTarget "BzztMassage" */;
+			buildPhases = (
+				4C3FBA3329FDB8AB00B57393 /* Resources */,
+				4C3FBA4E29FDB8AE00B57393 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C3FBA3E29FDB8AB00B57393 /* PBXTargetDependency */,
+			);
+			name = BzztMassage;
+			productName = BzztMassage;
+			productReference = 4C3FBA3529FDB8AB00B57393 /* BzztMassage.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		4C3FBA3A29FDB8AB00B57393 /* BzztMassage Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C3FBA4B29FDB8AE00B57393 /* Build configuration list for PBXNativeTarget "BzztMassage Watch App" */;
+			buildPhases = (
+				4C3FBA3729FDB8AB00B57393 /* Sources */,
+				4C3FBA3829FDB8AB00B57393 /* Frameworks */,
+				4C3FBA3929FDB8AB00B57393 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BzztMassage Watch App";
+			productName = "BzztMassage Watch App";
+			productReference = 4C3FBA3B29FDB8AB00B57393 /* Bzzt Massage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C3FBA2F29FDB8AB00B57393 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					4C3FBA3429FDB8AB00B57393 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					4C3FBA3A29FDB8AB00B57393 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 4C3FBA3229FDB8AB00B57393 /* Build configuration list for PBXProject "BzztMassage" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				tr,
+			);
+			mainGroup = 4C3FBA2E29FDB8AB00B57393;
+			productRefGroup = 4C3FBA3629FDB8AB00B57393 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C3FBA3429FDB8AB00B57393 /* BzztMassage */,
+				4C3FBA3A29FDB8AB00B57393 /* BzztMassage Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C3FBA3329FDB8AB00B57393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3FBA3929FDB8AB00B57393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3FBA4829FDB8AE00B57393 /* Preview Assets.xcassets in Resources */,
+				4C3FBA4529FDB8AE00B57393 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C3FBA3729FDB8AB00B57393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3FBA4129FDB8AB00B57393 /* BzztMassageApp.swift in Sources */,
+				4C3FBA5E29FDB96F00B57393 /* MainView.swift in Sources */,
+				4C3FBA6229FDB9BF00B57393 /* MassageViewModel.swift in Sources */,
+				4C3FBA6E2A0104FE00B57393 /* SpeedControl.swift in Sources */,
+				4C3FBA6529FDBA5F00B57393 /* InfoView.swift in Sources */,
+				4C32CF4E2A07011D00C9EC41 /* MassagesMode.swift in Sources */,
+				4C3FBA6029FDB9A400B57393 /* MassageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C3FBA3E29FDB8AB00B57393 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C3FBA3A29FDB8AB00B57393 /* BzztMassage Watch App */;
+			targetProxy = 4C3FBA3D29FDB8AB00B57393 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4C3FBA4929FDB8AE00B57393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		4C3FBA4A29FDB8AE00B57393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		4C3FBA4C29FDB8AE00B57393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"BzztMassage Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = ZUBBCB62N3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmobey.BzztMassage.watchkitapp;
+				PRODUCT_NAME = "Bzzt Massage";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		4C3FBA4D29FDB8AE00B57393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"BzztMassage Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = ZUBBCB62N3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmobey.BzztMassage.watchkitapp;
+				PRODUCT_NAME = "Bzzt Massage";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		4C3FBA5029FDB8AE00B57393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = ZUBBCB62N3;
+				INFOPLIST_KEY_CFBundleDisplayName = BzztMassage;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmobey.BzztMassage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4C3FBA5129FDB8AE00B57393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = ZUBBCB62N3;
+				INFOPLIST_KEY_CFBundleDisplayName = BzztMassage;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmobey.BzztMassage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C3FBA3229FDB8AB00B57393 /* Build configuration list for PBXProject "BzztMassage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C3FBA4929FDB8AE00B57393 /* Debug */,
+				4C3FBA4A29FDB8AE00B57393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C3FBA4B29FDB8AE00B57393 /* Build configuration list for PBXNativeTarget "BzztMassage Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C3FBA4C29FDB8AE00B57393 /* Debug */,
+				4C3FBA4D29FDB8AE00B57393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C3FBA4F29FDB8AE00B57393 /* Build configuration list for PBXNativeTarget "BzztMassage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C3FBA5029FDB8AE00B57393 /* Debug */,
+				4C3FBA5129FDB8AE00B57393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C3FBA2F29FDB8AB00B57393 /* Project object */;
+}
